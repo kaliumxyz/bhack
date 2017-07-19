@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "a system that transmits moving images over telegraph or telephone wires",
   "main": "index.js",
-  "repository": "https://github.com/kaliumxyz/tv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaliumxyz/tv.git"
+  },
   "author": "kalium",
   "license": "MIT",
   "devDependencies": {
@@ -14,5 +17,13 @@
   ],
   "scripts": {
     "test": "ava"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/kaliumxyz/tv/issues"
+  },
+  "homepage": "https://github.com/kaliumxyz/tv#readme",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
 }
